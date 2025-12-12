@@ -18,6 +18,7 @@ docker-compose up -d
 
 <!-- TODO: Добавить скриншот запуска docker-compose или результата docker-compose ps -->
 ![Запуск docker-compose](screenshots/01_docker_compose_up.png)
+<img width="2988" height="1302" alt="image" src="https://github.com/user-attachments/assets/3f2d1a72-db4c-422b-91fe-010cf6db77f3" />
 
 #### Инициализируем Nextcloud
 После запуска контейнеров необходимо:
@@ -28,7 +29,10 @@ docker-compose up -d
 
 <!-- TODO: Добавить скриншоты настройки Nextcloud -->
 ![Настройка Nextcloud](screenshots/02_nextcloud_setup.png)
+<img width="3071" height="1820" alt="image" src="https://github.com/user-attachments/assets/51e30928-a9ec-4848-960b-04e3d92ec763" />
+
 ![Создание административного аккаунта](screenshots/03_nextcloud_account.png)
+
 ![Главная страница Nextcloud](screenshots/04_nextcloud_home.png)
 
 ### Часть 2. Мониторинг
@@ -115,4 +119,5 @@ docker-compose up -d
 
 - Мониторинг (реактивный подход) — отслеживание заранее известных метрик.
 - Observability (проактивный подход) — это возможность понять поведение системы на основе данных (логов, метрик, трассировок), даже если проблема ранее не была предсказана.
+
 
