@@ -6,17 +6,7 @@
 **Тема:** Логирование, мониторинг и визуализация на примере Nextcloud, Loki, Zabbix и Grafana  
 
 Студенты:  
-Тутубалин Кирилл
-Москалец Данила
-Захматов Юрий
-Джафари Хоссаин
-Мохаджер Али Реза
 Группаы:  
-К3341
-К3341
-К3341
-К3340
-К3340
 Преподаватель: 
 
 Санкт-Петербург, 2025 г.
@@ -96,14 +86,27 @@
 Для сбора логов Nextcloud был настроен агент Promtail, который читает лог‑файлы из тома с данными Nextcloud и отправляет их в Loki.  
 Настройки описаны в файле `promtail_config.yml` (каталог `lab2_work`).
 
-1. Проверка того, что Loki успешно принимает данные (статус сервиса / healthcheck).
+1. Настройка и проверка конфигурации Promtail.
 
-<img width="2960" height="472" alt="loki succseseccc" src="https://github.com/user-attachments/assets/0c25c8e9-bd11-44e5-a09d-9a33a9028e31" />
+![Подборка настроек Promtail](<screenshots/подборка промтеил.png>)
+
+2. Проверка того, что Loki успешно принимает данные (статус сервиса / healthcheck).
+
+<img width="2960" height="472" alt="loki succseseccc" src="https://github.com/user-attachments/assets/897b71b3-e461-4f64-83ce-01df2cadf43a" />
 
 
-2. Просмотр логов Nextcloud через интерфейс Grafana по источнику данных Loki.
+3. Просмотр логов Nextcloud через интерфейс Grafana по источнику данных Loki.
 
 ![Просмотр логов в Grafana](screenshots/27_grafana_new_dashboard.png)
+
+4. Отображение логов в виде таблицы с использованием фильтров в Loki.
+
+![Логи в виде таблицы с фильтрами](<screenshots/Логи в виде таблицы в Loki фильтер.png>)
+
+5. Формирование и выполнение PromQL‑запросов через интерфейс Builder.
+
+![Пример PromQL‑запроса в Builder](<screenshots/PromQL запрос через Builder.png>)
+![Результат выполнения PromQL‑запроса](<screenshots/результат выполнения PromQL запрос через Builder.png>)
 
 ---
 
@@ -144,7 +147,16 @@
 ![Мониторинг в Zabbix](screenshots/18_zabbix_monitoring_data.png)
 
 9. Убедились, что триггеры по шаблону корректно срабатывают (например, при включении режима обслуживания).
-<img width="3064" height="790" alt="zabbix sucess" src="https://github.com/user-attachments/assets/ae3325c6-edcc-47c6-9ad0-e521c939d473" />
+
+![Успешная работа Zabbix](<screenshots/zabbix sucess.png>)
+
+10. Общий статус сервера и сервисов в Zabbix.
+
+![Статус сервера](<screenshots/статус сервера.png>)
+
+11. Дополнительный обзор интерфейса и панелей Zabbix.
+
+![Интерфейс Zabbix](screenshots/zabbix.png)
 
 ---
 
@@ -152,8 +164,7 @@
 
 1. Подключение к веб‑интерфейсу Grafana.
 
-<img width="3072" height="1796" alt="Screenshot 2025-12-13 192334" src="https://github.com/user-attachments/assets/53b619ca-bd1c-40db-8630-e9b0cb91fc12" />
-
+![Интерфейс Grafana](<screenshots/Screenshot 2025-12-13 192334.png>)
 
 2. Настройка источника данных Loki и (при необходимости) источника Zabbix через установленный плагин.
 
