@@ -163,7 +163,7 @@
 отображающий логи и метрики состояния сервиса Nextcloud.
 
 ![Создание дашборда](screenshots/27.png)
-![Итоговый дашборд Grafana](screenshots/28.png)
+![Итоговый дашборд Grafana](screenshots/111.png)
 
 *Рисунок — Итоговый дашборд Grafana*
 
@@ -231,6 +231,7 @@
 - `promtail_config.yml` — конфигурация Promtail
 - `template.yml` — шаблон мониторинга Zabbix
 - Папка `screenshots/` — скриншоты всех этапов работы
+
 
 
 
