@@ -154,6 +154,7 @@
 
 ![Запросы к данным](screenshots/25.png)
 ![Результат выполнения запроса](screenshots/26.png)
+![Результат выполнения запроса](screenshots/30.png)
 <img width="2220" height="1278" alt="image" src="https://github.com/user-attachments/assets/e18e2a33-2263-44ce-b4e1-869c38ce79b4" />
 
 #### 3.5.6 Создание дашборда Grafana
@@ -230,6 +231,7 @@
 - `promtail_config.yml` — конфигурация Promtail
 - `template.yml` — шаблон мониторинга Zabbix
 - Папка `screenshots/` — скриншоты всех этапов работы
+
 
 
 
