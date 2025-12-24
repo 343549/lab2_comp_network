@@ -128,8 +128,6 @@
 ![Zabbix: статус хоста](screenshots/12.png)
 ![Zabbix: состояние триггеров](screenshots/15.png)
 
----
-
 #### 3.X. Подключение Loki к Grafana
 
 В Grafana был добавлен источник данных Loki для работы с логами Nextcloud.
@@ -139,7 +137,6 @@
 ![Grafana: настройка Loki](screenshots/20.png)
 ![Grafana: проверка подключения Loki](screenshots/21.png)
 
----
 
 #### 3.X. Подключение Zabbix к Grafana
 
@@ -149,7 +146,6 @@
 ![Grafana: добавление Zabbix](screenshots/22.png)
 ![Grafana: проверка подключения Zabbix](screenshots/23.png)
 
----
 
 #### 3.X. Отображение данных в Grafana
 
@@ -158,8 +154,7 @@
 
 ![Запросы к данным](screenshots/25.png)
 ![Результат выполнения запроса](screenshots/26.png)
-
----
+<img width="2220" height="1278" alt="image" src="https://github.com/user-attachments/assets/e18e2a33-2263-44ce-b4e1-869c38ce79b4" />
 
 #### 3.X. Создание дашборда Grafana
 
@@ -235,6 +230,7 @@
 - `promtail_config.yml` — конфигурация Promtail
 - `template.yml` — шаблон мониторинга Zabbix
 - Папка `screenshots/` — скриншоты всех этапов работы
+
 
 
 
